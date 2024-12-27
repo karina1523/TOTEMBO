@@ -216,7 +216,7 @@ body {
 }
 
 .header__content-box:hover .box-left-text {
-    color: var(--color);
+    color: black;
 }
 
 
@@ -237,7 +237,7 @@ body {
 
 .header__content-box:hover .box-right-text {
     color: var(--color1);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
@@ -252,7 +252,7 @@ body {
 }
 
 .header__content-box:hover .box-right-title {
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 
 /* header end */
@@ -345,6 +345,7 @@ body {
 .main__cards-content-texts {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .main__cards-content-text {
@@ -377,7 +378,7 @@ body {
 .main__cards-icon-heart {
     width: 30px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 6px;
     color: var(--color);
     display: flex;
     justify-content: center;
@@ -391,14 +392,14 @@ body {
 }
 
 .main__cards-icon-heart:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background: url(../images/heart.svg) no-repeat;
 }
 
 .main__cards-icon-basket {
     width: 30px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 6px;
     color: var(--color);
     display: flex;
     justify-content: center;
@@ -412,7 +413,7 @@ body {
 }
 
 .main__cards-icon-basket:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background: url(../images/basket.svg) no-repeat;
 }
 
