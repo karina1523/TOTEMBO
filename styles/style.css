@@ -215,11 +215,16 @@ body {
     color: var(--color2);
 }
 
+.header__content-box:hover .box-left-text {
+    color: var(--color);
+}
+
 
 .header__content-box-right {
     display: flex;
     flex-direction: column;
     gap: 21px;
+
 }
 
 .box-right-text {
@@ -232,7 +237,7 @@ body {
 
 .header__content-box:hover .box-right-text {
     color: var(--color1);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -247,7 +252,7 @@ body {
 }
 
 .header__content-box:hover .box-right-title {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* header end */
@@ -281,6 +286,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 40px;
+}
+
+.main__cards-content-texts {
+    text-align: center;
 }
 
 .main__cards-content {
@@ -348,7 +357,7 @@ body {
 
 .main__cards-content:hover .main__cards-content-text {
     color: var(--color2);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .main__cards-content-title {
@@ -362,12 +371,13 @@ body {
 }
 
 .main__cards-content:hover .main__cards-content-title {
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .main__cards-icon-heart {
     width: 30px;
     height: 30px;
+    border-radius: 5px;
     color: var(--color);
     display: flex;
     justify-content: center;
@@ -381,13 +391,14 @@ body {
 }
 
 .main__cards-icon-heart:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     background: url(../images/heart.svg) no-repeat;
 }
 
 .main__cards-icon-basket {
     width: 30px;
     height: 30px;
+    border-radius: 5px;
     color: var(--color);
     display: flex;
     justify-content: center;
@@ -401,7 +412,7 @@ body {
 }
 
 .main__cards-icon-basket:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     background: url(../images/basket.svg) no-repeat;
 }
 
